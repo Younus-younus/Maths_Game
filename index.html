@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap" rel="stylesheet">
+    <title>Mathemtaics Gmaes</title>
+</head>
+<body>
+    <div class="main" id="main">
+        <div>
+            <div class="main-container blur"></div>
+            <div class="top">
+                <div class="question-down blur" id="bgcolor"><p id="change">You have 1 min to Answer</p></div>
+                <div class="score blur">
+                    <p id="score-count">Score 0</p></div>
+            </div>
+           
+        <div class="question blur"><span class="mult-text" id="board" class="gochi-hand-regular">Maths Game!</span></div>
+        <div class="choice-container blur">
+            <button class="option" onclick="checkAnswer(this)">0</button>
+            <button class="option" onclick="checkAnswer(this)">0</button>
+            <button class="option" onclick="checkAnswer(this)">0</button>
+            <button class="option" onclick="checkAnswer(this)">0</button>
+        </div>
+        <div class="down">
+            <button id="btn" class="blur">Start</button>
+            <button id="btn2">Reset</button>
+            <div class="timings" id="timing"><p>Time Remaining: <span id="timeremaining">60</span>sec</p></div>
+        </div>
+    </div>
+    </div>
+    <div id="gameover">
+        <h1>Game Over!</h1>
+        <h2></h2>
+        <h3></h3>
+        <button id="btn3">Start Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
