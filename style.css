@@ -3,7 +3,6 @@ body {
     text-align: center;
     justify-content: center;
     background-color: #f0f0f0;
-    margin: 0;
     font-family: 'Gochi Hand', cursive;
 }
 
@@ -188,7 +187,7 @@ h3 {
     color: white;
 }
 
-@media screen and (max-width: 878px) {
+/* @media screen and (max-width: 878px) {
     .main {
         width: 350px;
     }
@@ -217,34 +216,33 @@ h3 {
         margin-left: 40px;
     }
     .timings {
-        width: 40%;
+        width: 30%;
         font-size: 15px;
     }
-}
+} */
 
-@media screen and (max-width: 369px) {
+@media screen and (max-width: 544px) {
     .main {
-        width: 290px;
+        width: 320px;
     }
     .option {
         width: 50px;
-        margin-right: 5px;
-        height: 20px;
-        padding: 0;
+        margin-right: 2px;
     }
     .choice-container {
-        margin-left: 30px;
+        margin-left: 10px;
     }
     #btn {
-        margin-left: 10px;
+        margin-left: 5px;
     }
     .question {
         width: 250px;
-        margin-left: 10px;
+        margin-left: 36px;
         font-size: small;
     }
     .question-down {
         width: 180px;
+        font-size: 15px;
     }
     .score {
         width: 70px;
@@ -253,41 +251,44 @@ h3 {
         margin-left: 10px;
     }
     .timings {
-        width: 50%;
+        width: 30%;
     }
 }
 
-@media screen and (max-width: 310px) {
+@media screen and (max-width: 348px) {
     .main {
         width: 270px;
     }
     .option {
-        width: 50px;
-        margin-right: 5px;
+        width: 45px;
     }
     .choice-container {
-        margin-left: 30px;
+        margin-left: 10px;
     }
     #btn {
-        margin-left: 10px;
+        margin-left: 30px;
+        width: 60px;
+    }
+    #btn2 {
+        width: 60px;
     }
     .question {
         width: 250px;
-        margin-left: 10px;
+        margin-left: 30px;
         font-size: small;
+        margin-right: 30px;
     }
     .question-down {
         width: 180px;
+        margin-left: 15px;
     }
     .score {
         width: 70px;
+        margin-left: 0;
     }
-    .top {
-        margin-left: 10px;
-    }
-    .timings {
-        width: 50%;
-    }
+    /* .top {
+        margin-left: 5px;
+    } */
 }
 
 @media screen and (max-width: 280px) {
@@ -295,25 +296,33 @@ h3 {
         width: 250px;
     }
     .option {
-        width: 50px;
+        width: 40px;
         margin-right: 5px;
     }
     .choice-container {
-        margin-left: 30px;
+        margin-left: 10px;
     }
     #btn {
-        margin-left: 10px;
+        margin-left: 30px;
+        width: 60px;
+    }
+    #btn2 {
+        width: 60px;
     }
     .question {
         width: 240px;
-        margin-right: 2px;
+        /* margin-right: 2px; */
         font-size: small;
     }
     .question-down {
-        width: 170px;
+        width: 160px;
+        margin-left: 25px;
+        font-size: 13px;
     }
     .score {
         width: 60px;
+        margin-left: 0;
+        margin-right: 15px;
     }
     #score-count {
         font-size: 15px;
@@ -322,7 +331,7 @@ h3 {
     .top {
         margin-left: 10px;
     }
-    .timings {
+    /* .timings {
         width: 50%;
-    }
+    } */
 }
