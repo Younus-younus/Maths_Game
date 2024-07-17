@@ -21,7 +21,7 @@ btn.addEventListener("click",()=>
 {   
     Question();
     timer.style.display = "block";
-   TimeRemaining = 10;
+   TimeRemaining = 60;
    document.getElementById("timeremaining").innerHTML = TimeRemaining;
    change.innerText = "Your time Has Been Started";
    countdown();
